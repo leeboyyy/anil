@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid mt-3 text-center">
+        <br>
+        <h3>Anil kumar.Koya, Bsc(Computers)</h3>
+        <h3>Mobile: 6309640325</h3>
+        <p>Myself Anil, Completed the BSc Computers Science in Sri Harishinin College from onogle under Acharya Nagarjuna University.</p>
+        <p>I have a good konoledge on Ruby On Rails technnologies<strong>Note:</strong>Looking for job, Please contact me via email: abilkiumar26@gmail.com</p>
+      </div>
+<nav class="navbar navbar-expand-sm bg-dark  fixed-top navbar-dark sticky-top">
+  <div class="container-fluid">
+    <img src="./lib/images/anil_koya.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+    
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Resume.html">Resume</a>
+        </li>  
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Technologies</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="HTML.html">HTML</a></li>
+            <li><a class="dropdown-item" href="CSS.html">CSS</a></li>
+            <li><a class="dropdown-item" href="javaScript.html">JavaScript</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="bootstrap.html">Bootstrap</a></li>
+            <li><a class="dropdown-item" href="jQuery.html">JQuery</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Manualtesting.html">Manual Testing</a></li>
+            <li><a class="dropdown-item" href="Seleniumtesting.html">Selenium Testing</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-flex">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="Sign Up.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Signin.html">Sign in</a>
+            </li>
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="tutorial-content" id="mainContent">
+    <h1>jQuery - Overview</h1>
+    <hr>
+    <div id="adp_top_ads" style="text-align:center !important;overflow: hidden; max-height:99px;min-height:99px"><div id="00000001-849ec15e-8242-42f1-a887-14dcf87cb7c5" class="_ap_apex_ad" data-section="00000001-849ec15e-8242-42f1-a887-14dcf87cb7c5" data-orig-id="8014640d-fd34-4b2e-9b1b-cc67234a2325" data-render-time="1694602629035" data-ap-network="adpTags" data-refresh-time="1694602640302" data-timeout="360" style="text-align: center; margin: 10px auto; width: 728px; height: 90px; overflow: hidden; display: block;"><div id="ADP_40046_728x90_00000001-849ec15e-8242-42f1-a887-14dcf87cb7c5" style="text-align: center; margin: 0 auto;" data-google-query-id="CJT-_962p4EDFQ8S1QodBiIMtg">
+    
+    <div id="google_ads_iframe_/103512698,60931893/21908814956_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/103512698,60931893/21908814956_0" name="google_ads_iframe_/103512698,60931893/21908814956_0" title="3rd party ad content" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region" aria-label="Advertisement" tabindex="0" allow="attribution-reporting" style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="2"></iframe></div></div></div></div>
+    <script>
+         var adPos = document.getElementById('adp_top_ads');
+         var ad_id_720 = "8014640d-fd34-4b2e-9b1b-cc67234a2325";
+         var ad_id_650 = "2d1bb2c4-eb72-471d-9c80-1bf5514728c1";
+         var ad_id_300 = "df94a1a9-ae2f-432d-9a92-d93823ff4503";
+         var width = window.innerWidth;
+         var ad_id = ad_id_720;
+         if( width <= 768 ){
+            ad_id =  ad_id_300;
+            adPos.style.minHeight = "260px";
+            adPos.style.maxHeight = "260px";
+         }else if( width <= 1435 ){
+            ad_id =  ad_id_650;
+         }
+         adPos.innerHTML = '<div id="' + ad_id + '" class="_ap_apex_ad"></div>';
+         var adpushup = adpushup || {};
+         adpushup.que = adpushup.que || [];
+         adpushup.que.push(function() {
+         adpushup.triggerAd(ad_id);
+         });
+    </script>
+    <div class="clearer"></div>
+    <p>jQuery is a fast and concise JavaScript Library created by John Resig in 2006 with a nice motto: <b>Write less, do more</b>. jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.</p>
+    <h2>jQuery Features</h2>
+    <p>jQuery simplifies various tasks of a progammer by writing less code. Here is the list of important core features supported by jQuery −</p>
+    <ul class="list">
+    <li><p><b>DOM manipulation</b> − The jQuery made it easy to select DOM elements, negotiate them and modifying their content by using cross-browser open source selector engine called <b>Sizzle</b>.</p></li>
+    <li><p><b>Event handling</b> − The jQuery offers an elegant way to capture a wide variety of events, such as a user clicking on a link, without the need to clutter the HTML code itself with event handlers.</p></li>
+    <li><p><b>AJAX Support</b> − The jQuery helps you a lot to develop a responsive and featurerich site using AJAX technology.</p></li>
+    <li><p><b>Animations</b> − The jQuery comes with plenty of built-in animation effects which you can use in your websites.</p></li>
+    <li><p><b>Lightweight</b> − The jQuery is very lightweight library - about 19KB in size (Minified and gzipped).</p></li>
+    <li><p><b>Cross Browser Support</b> − The jQuery has cross-browser support, and works well in IE 6.0+, FF 2.0+, Safari 3.0+, Chrome and Opera 9.0+</p></li>
+    <li><p><b>Latest Technology</b> − The jQuery supports CSS3 selectors and basic XPath syntax.</p></li>
+    </ul>
+    <h2>Setting up jQuery</h2>
+    <p>There are two ways to use jQuery.</p>
+    <ol>
+    <li><p><b>Local Installation</b> − You can download jQuery library on your local machine and include it in your HTML code.</p></li>
+    <li><p><b>CDN Based Installation</b> − You can include jQuery library into your HTML code directly from Content Delivery Network (CDN).</p></li>
+    </ol>
+    <h2>jQuery - Local Installation</h2>
+    <p>You can download latest version of jQuery on your web server and include the downloaded library in your code. We suggest you to download compressed version of the library for a better performance.</p>
+    <ul>
+    <li><p>Go to the <a rel="nofollow" target="_blank" href="https://jquery.com/download/">https://jquery.com/download/</a> to download the latest version available.</p></li>
+    <li><p>Now put downloaded <b>jquery-3.6.0.min.js</b> file in a directory of your website, e.g. /jquery/<b>jquery-3.6.0.js</b>.</p></li>
+    <li><p>Finally include this file in your HTML markup file as shown below.</p></li>
+    </ul>
+    <h3>Example</h3>
+    <p>Now you can include <i>jquery</i> library in your HTML file as given below. Try to click the icon <img class="run-button" src="/images/run-button.png" alt="run button"> to run the following jQuery code −</p>
+    <pre class="demo-code notranslate  language-javascript" data-lang="javascript" data-index="0" id="0" tabindex="0"><div class="execute"></div><div class="code-mirror  language-javascript" contenteditable="plaintext-only" spellcheck="false" style="outline: none; overflow-wrap: break-word; overflow-y: auto; white-space: pre-wrap;"><span class="token operator">&lt;</span><span class="token operator">!</span>doctype html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>title<span class="token operator">&gt;</span>The jQuery Example<span class="token operator">&lt;</span><span class="token operator">/</span>title<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+       <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>body<span class="token operator">&gt;</span>
+       <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> <span class="token constant">HTML</span> body goes here <span class="token operator">--</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">&gt;</span>
+    </div><div class="output-wrapper"><div class="console-close"></div><div class="code-output"></div></div></pre>
+    <h2>jQuery - CDN Based Installation</h2>
+    <p>You can include jQuery library into your HTML code directly from a Content Delivery Network (CDN). There are various CDNs which provide a direct link to the latest jQuery library which you can include in your program.</p>
+    <h3>Example</h3>
+    <p>Now let us rewrite above example using jQuery library from Google CDN. Try to click the icon <img class="run-button" src="/images/run-button.png" alt="run button"> to run the following jQuery code −</p>
+    
+    <pre class="demo-code notranslate  language-javascript" data-lang="javascript" data-index="1" id="1" tabindex="0"><div class="execute"></div><div class="code-mirror  language-javascript" contenteditable="plaintext-only" spellcheck="false" style="outline: none; overflow-wrap: break-word; overflow-y: auto; white-space: pre-wrap;"><span class="token operator">&lt;</span><span class="token operator">!</span>doctype html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>title<span class="token operator">&gt;</span>The jQuery Example<span class="token operator">&lt;</span><span class="token operator">/</span>title<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+       <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>body<span class="token operator">&gt;</span>
+       <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> <span class="token constant">HTML</span> body goes here <span class="token operator">--</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>html<span class="token operator">&gt;</span>
+    </div><div class="output-wrapper"><div class="console-close"></div><div class="code-output"></div></div></pre>
+    <p>We are using our own Tutorials Point CDN version of the library throughout this jQuery Tutorial. You can find many other CDNs on the internet to include jQuery in your web pages.</p>
+    <pre class="demo-code notranslate  language-javascript" data-lang="javascript" data-index="2" id="2" tabindex="0"><div class="execute"></div><div class="code-mirror  language-javascript" contenteditable="plaintext-only" spellcheck="false" style="outline: none; overflow-wrap: break-word; overflow-y: auto; white-space: pre-wrap;"><span class="token operator">&lt;</span><span class="token operator">!</span>doctype html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>title<span class="token operator">&gt;</span>The jQuery Example<span class="token operator">&lt;</span><span class="token operator">/</span>title<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+       <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>body<span class="token operator">&gt;</span>
+       <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> <span class="token constant">HTML</span> body goes here <span class="token operator">--</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>html<span class="token operator">&gt;</span>
+    </div><div class="output-wrapper"><div class="console-close"></div><div class="code-output"></div></div></pre>
+    
+    <h2>How to Call a jQuery Library Functions?</h2>
+    <p>As almost everything, we do when using jQuery reads or manipulates the document object model (DOM), we need to make sure that we start adding events etc. as soon as the DOM is ready.</p>
+    <p>If you want an event to work on your page, you should call it inside the $(document).ready() function. Everything inside it will load as soon as the DOM is loaded and before the page contents are loaded.</p>
+    <p>To do this, we register a ready event for the document as follows −</p>
+    <pre class="just-code notranslate  language-javascript" data-lang="javascript" tabindex="0"><div class="code-mirror  language-javascript" contenteditable="plaintext-only" spellcheck="false" style="outline: none; overflow-wrap: break-word; overflow-y: auto; white-space: pre-wrap;"><span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+       <span class="token comment">// do stuff when DOM is ready</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    </div></pre>
+    <p>To call upon any jQuery library function, use HTML script tags as shown below. Try to click the icon <img class="run-button" src="/images/run-button.png" alt="run button"> to run the following jQuery code −</p>
+    <pre class="demo-code notranslate  language-javascript" data-lang="javascript" data-index="3" id="3" tabindex="0"><div class="execute"></div><div class="code-mirror  language-javascript" contenteditable="plaintext-only" spellcheck="false" style="outline: none; overflow-wrap: break-word; overflow-y: auto; white-space: pre-wrap;"><span class="token operator">&lt;</span><span class="token operator">!</span>doctype html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>title<span class="token operator">&gt;</span>The jQuery Example<span class="token operator">&lt;</span><span class="token operator">/</span>title<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+       <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"div"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"Hello, world!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>body<span class="token operator">&gt;</span>
+       <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>Click on <span class="token keyword">this</span> to see a dialogue box<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">&gt;</span>
+    </div><div class="output-wrapper"><div class="console-close"></div><div class="code-output"></div></div></pre>
+    
+    <h2>How to Use Custom Scripts?</h2>
+    <p>It is better to write your custom code in the custom JavaScript file : <b>custom.js</b>, as follows −</p>
+    <pre class="just-code notranslate  language-javascript" data-lang="javascript" tabindex="0"><div class="code-mirror  language-javascript" contenteditable="plaintext-only" spellcheck="false" style="outline: none; overflow-wrap: break-word; overflow-y: auto; white-space: pre-wrap;"><span class="token comment">/* Filename: custom.js */</span>
+    <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+       <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"div"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"Hello, world!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    </div></pre>
+    <p>Let's keep this file in <b>/jquery</b> directory and then we can include <b>custom.js</b> file in our HTML file as follows. Try to click the icon <img class="run-button" src="/images/run-button.png" alt="run button"> to run the following jQuery code −</p>
+    
+    <pre class="demo-code notranslate  language-javascript" data-lang="javascript" data-index="4" id="4" tabindex="0"><div class="execute"></div><div class="code-mirror  language-javascript" contenteditable="plaintext-only" spellcheck="false" style="outline: none; overflow-wrap: break-word; overflow-y: auto; white-space: pre-wrap;"><span class="token operator">&lt;</span><span class="token operator">!</span>doctype html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>html<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>title<span class="token operator">&gt;</span>The jQuery Example<span class="token operator">&lt;</span><span class="token operator">/</span>title<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"https://www.tutorialspoint.com/jquery/custom.js"</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>body<span class="token operator">&gt;</span>
+       <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>Click on <span class="token keyword">this</span> to see a dialogue box<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">&gt;</span>
+    </div><div class="output-wrapper"><div class="console-close"></div><div class="code-output"></div></div></pre>
+    <h2>Using Multiple Libraries</h2>
+    <p>You can use multiple libraries all together without conflicting each others. For example, you can use jQuery and MooTool javascript libraries together. You can check <a href="/jquery/jquery-noconflict.htm">jQuery noConflict</a> Method for more detail.</p>
+    <h2>What is Next ?</h2>
+    <p>Do not worry too much if you did not understand above examples. You are going to grasp them very soon in subsequent chapters.</p>
+    <p>Next chapter would try to cover few basic concepts which are coming from conventional JavaScript.</p>
+    <div class="library-cta">
+    <div>
+       <h5 class="library-cta__title">Kickstart Your <span class="text-yellow-400">Career</span></h5>
+       <p>Get certified by completing the course</p>
+       <a target="_blank" href="https://www.tutorialspoint.com/latest/certifications" class="library-cta__button button button--yellow">Get Started</a>
+       </div>
+       <img src="/static/images/library-cta.svg" alt="">
+    </div>
+    <div class="library-page-bottom-nav ">
+       <button class="button button--blue" id="print-page">
+        <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M112 160V64c0-8.8 7.2-16 16-16H357.5c4.2 0 8.3 1.7 11.3 4.7l26.5 26.5c3 3 4.7 7.1 4.7 11.3V160h48V90.5c0-17-6.7-33.3-18.7-45.3L402.7 18.7C390.7 6.7 374.5 0 357.5 0H128C92.7 0 64 28.7 64 64v96h48zm16 208H384v96H128V368zm-16-48c-17.7 0-32 14.3-32 32H48V256c0-8.8 7.2-16 16-16H448c8.8 0 16 7.2 16 16v96H432c0-17.7-14.3-32-32-32H112zm320 80h48c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64V368c0 17.7 14.3 32 32 32H80v80c0 17.7 14.3 32 32 32H400c17.7 0 32-14.3 32-32V400z"></path></svg>
+          Print Page
+       </button>
+       <div class="flex-group">
+       <a href="/jquery/index.htm">
+       <button class="button button--neutral">
+       <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="none"><path d="M1.03117 8.48836C0.64065 8.09783 0.64065 7.46467 1.03117 7.07414L7.39514 0.710183C7.78566 0.319658 8.41883 0.319658 8.80935 0.710183C9.19987 1.10071 9.19987 1.73387 8.80935 2.1244L3.15249 7.78125L8.80935 13.4381C9.19987 13.8286 9.19987 14.4618 8.80935 14.8523C8.41882 15.2428 7.78566 15.2428 7.39513 14.8523L1.03117 8.48836ZM3.12109 8.78125L1.73828 8.78125L1.73828 6.78125L3.12109 6.78125L3.12109 8.78125Z" fill="black"></path></svg>
+          Previous
+       </button>
+       </a>
+       <a href="/jquery/jquery-basics.htm">
+       <button class="button ">Next
+       <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="none"><path d="M8.87117 8.48836C9.26169 8.09783 9.26169 7.46467 8.87117 7.07414L2.50721 0.710183C2.11668 0.319658 1.48352 0.319658 1.09299 0.710183C0.70247 1.10071 0.70247 1.73387 1.09299 2.1244L6.74985 7.78125L1.093 13.4381C0.702471 13.8286 0.702471 14.4618 1.093 14.8523C1.48352 15.2428 2.11668 15.2428 2.50721 14.8523L8.87117 8.48836ZM6.78125 8.78125L8.16406 8.78125L8.16406 6.78125L6.78125 6.78125L6.78125 8.78125Z" fill="white"></path></svg>
+       </button>
+       </a>
+       </div>
+    </div>
+    <div class="bottom-library-ads mt">
+       <div class="google-bottom-ads" id="google-bottom-ads">
+          <div>Advertisements</div>
+          <div>
+          <div id="adp_bottom_ads"><div id="00000001-8652b7ba-35e5-48d5-921e-f7b4878a70a9" class="_ap_apex_ad" data-section="00000001-8652b7ba-35e5-48d5-921e-f7b4878a70a9" data-orig-id="4951d1d6-24d4-4a31-afb7-2c22c489eae1" data-render-time="1694602629038" data-ap-network="adpTags" data-refresh-time="1694602632130" data-timeout="219" style="text-align: center; margin: 0px auto; display: block;"><div id="ADP_40046_responsivexresponsive_00000001-8652b7ba-35e5-48d5-921e-f7b4878a70a9" style="text-align: center; margin: 0 auto;" data-google-query-id="CKHlgt-2p4EDFQ8S1QodBiIMtg">
+    
+    <div id="google_ads_iframe_/103512698,60931893/22614721936_0__container__" style="border: 0pt none; display: inline-block; width: 300px; height: 250px;"><iframe frameborder="0" src="https://bb277f435970b564262e3f4652709824.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/103512698,60931893/22614721936_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="attribution-reporting" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="3" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div></div></div>
+          <script>
+             var adPos = document.getElementById('adp_bottom_ads');
+             var mobile_ad_id = "6d621d7e-9531-4f26-810f-68af67dc6366";
+             var desktop_ad_id = "4951d1d6-24d4-4a31-afb7-2c22c489eae1";
+             var adpushup = adpushup || {};
+             adpushup.que = adpushup.que || [];
+             adpushup.que.push(function() {
+                var ad_id = window.innerWidth <= 768 ? mobile_ad_id : desktop_ad_id;
+                adPos.innerHTML = '<div id="' + ad_id + '" class="_ap_apex_ad"></div>';
+                adpushup.triggerAd(ad_id);
+             });
+          </script>
+       </div>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+        <footer class="">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><strong>Home</strong></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>    
+        </ul>
+        <p class="text-center text-body-secondary"><b>All rights reserved by © Anil kumar.Koya</p>
+        <p class="float-end"><a href="#">Back to top</a></p>
+        </footer>
+  </div>
+
+</body>
+</html>
